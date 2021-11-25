@@ -1,0 +1,19 @@
+.firstbox {
+  text-align: center;
+  border: black 7px solid;
+}
+#internal_ul {
+  background-color: royalblue;
+}
+ol {
+  background-color: orange;
+}
+p[name="p_tag"] {
+  background-color: mediumturquoise;
+}
+body{
+    background-color: aquamarine;
+}
+img{
+    border-radius: 50%;
+}

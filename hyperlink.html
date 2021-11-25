@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hyperlink and Forms</title>
+    </head>
+    <body>
+        <a target="_blank" href="https://www.google.com/">google in new tab</a>
+        <br/>
+        <a href="./basic.html">basics</a>
+        <br/>
+        <a href="#heading">basics</a>
+        <h1 id="heading">Hello</h1>
+         <h1>
+             form
+         </h1>
+        <form>
+            <label for="text">Enter text</label>
+            <input  placeholder="Type something" minlength="6" maxlength="16" id="text" type="text" required/>
+            <br><br>
+            <label  for="Email">Enter email</label>
+            <input placeholder="abc@gmail.com" id="Email" type="email"/>
+            <br><br>
+            <label value="+91 " for="num">Enter num</label>
+            <input id="num" type="number"/>
+            <br><br>
+            <label for="pass">Enter Password</label>
+            <input id="pass" type="password"/>
+            <br><br>
+            <label for="dob">Enter dob</label>
+            <input id="dob" type="date"/>
+            <br><br>
+            <label >Enter Multi Correct Option</label><br>
+            <label for="a">A</label>
+            <input id="a" type="checkbox"/>
+            <label for="b">B</label>
+            <input id="b" type="checkbox"/>
+            <label for="c">C</label>
+            <input id="c" type="checkbox"/>
+            <label for="d">D</label>
+            <input id="d" type="checkbox"/>
+            <br><br>
+            <input type="search"/>
+            <br/><br/>
+            <label >Enter Single Correct Option</label>
+
+            <input name="single" type="radio"/>
+            <input name="single" type="radio"/>
+            <input name="single" type="radio"/>
+            <input name="single" type="radio"/>
+            <br><br>
+            <label for="infile" >Upload File</label>
+            <input id="infile" type="file"/>
+            <br><br>
+            <input type="color">
+            <br><br>
+            <label for="choice">Enter your choice</label>
+            <select id="choice" >
+                <option>Choice 1</option>
+                <option>Choice 2</option>
+                <option>Choice 3</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit"/>
+            <br>
+        </form>
+    </body>
+</html>

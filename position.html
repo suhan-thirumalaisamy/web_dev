@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position and Media Queries</title>
+    <link rel="stylesheet" href="./position.css" />
+  </head>
+  <body>
+    <div>INSET</div>
+    <h2>position:static;</h2>
+    <p>
+      An element with position:static ; is not positioned in any special way; it
+      is always positioned according to the normal flow of page;
+    </p>
+    <div class="static">This div element has position as static.</div>
+    <h2>position:relative;</h2>
+    <p>
+      An element with position:relative ; is positioned relative to its normal
+      position;
+    </p>
+    <div class="relative">This div element has position as relative.</div>
+    <h2>position:fixed;</h2>
+    <p>
+      An element with position:fixed; is positioned relative to the viewport
+      which means it always stays in same place even if page is scrolled;
+    </p>
+    <div class="fixed">This div element has position as fixed.</div>
+
+    <h2>position:absolute;</h2>
+    <p>
+      An element with position:absolute ; is positioned relative to the nearest
+      positioned ancestor (instead of positioned relative to the viewport, like
+      fixed);
+    </p>
+    <div class="relative">
+      This div element has position as relative.
+      <div class="absolute">This div element has position as absolute.</div>
+    </div>
+    <h2>position:sticky;</h2>
+    <span class="sticky">I am Sticky!</span>
+    <div>
+    <p style="margin-bottom: 1000px;">In this example , the sticky element sticks to the top of page (top:0),when you reach the scroll position</p>
+    <p>Scroll back up to remove the stickynes</p>
+    </div>
+  </body>
+</html>
